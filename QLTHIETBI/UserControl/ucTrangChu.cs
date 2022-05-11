@@ -14,7 +14,30 @@ namespace QLTHIETBI
         {
             InitializeComponent();
         }
+        private void TinhPhanTram(int tongsl, int count, Bunifu.UI.WinForms.BunifuCircleProgress progress, Bunifu.UI.WinForms.BunifuPanel col, Label label)
+        {
+            if (count > 0)
+            {
+                float sl = ((float)count / (float)tongsl) * 100;
+                string kq = Math.Round(sl, 1).ToString();
+                progress.ValueByTransition = Convert.ToInt32(kq.Substring(0, kq.Length - 2));
+                progress.SubScriptText = kq.Substring(kq.Length - 2, 2);
 
+                col.Size = new Size(30, (int)sl *2);
+                col.Location = new Point(col.Location.X, (200 - ((int)sl *2)) + col.Location.Y);
+                label.Text = kq.ToString();
+            }
+            else
+            {
+                progress.ValueByTransition = 0;
+                progress.SubScriptText = ",0";
+                col.Size = new Size(30,2);
+                col.Location = new Point(col.Location.X, 198 + col.Location.Y);
+                label.Text = "0";
+
+            }
+            
+        }
         private void ucTrangChu_Load(object sender, EventArgs e)
         {
             lblSoLuongTB.Text = ThietBiDAO.Instance.CountDataThietBi().ToString();
@@ -31,10 +54,13 @@ namespace QLTHIETBI
             lblSoLuongNV.Text = NhanVienDAO.Instance.CountDataNhanVien().ToString();
 
             int tongsl = ThietBiDAO.Instance.CountDataThietBi();
-            DangHoatDong.ValueByTransition = (ThietBiDAO.Instance.CountTBDangHoatDong() * 100) / tongsl;
-            DaThanhLy.ValueByTransition = (ThietBiDAO.Instance.CountTBDaThanhLy() * 100) / tongsl;
-            BiHuHong.ValueByTransition = (ThietBiDAO.Instance.CountTBBiHuHong() * 100) / tongsl;
-            BiMat.ValueByTransition = (ThietBiDAO.Instance.CountTBBiMat() * 100) / tongsl;
+
+            TinhPhanTram(tongsl, ThietBiDAO.Instance.CountTBDangHoatDong(), crlHD, colHD,lblHD);
+            TinhPhanTram(tongsl, ThietBiDAO.Instance.CountTBDaThanhLy(), crlTL,colTL,lblTL);
+            TinhPhanTram(tongsl, ThietBiDAO.Instance.CountTBBiHuHong(), crlHH,colHH,lblHH);
+            TinhPhanTram(tongsl, ThietBiDAO.Instance.CountTBBiMat(), crlBM,colBM,lblBM);
+
+            
 
             count = NhanVienDAO.Instance.CountNhanVienDangHoatDong();
             LoadNhanVien();
@@ -180,6 +206,7 @@ namespace QLTHIETBI
             linkShowNV.LinkColor = Color.Gray;
         }
 
-
+       
+    
     }
 }

@@ -77,23 +77,53 @@ namespace QLTHIETBI
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.bunifuPanel9 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.bunifuCircleProgress5 = new Bunifu.UI.WinForms.BunifuCircleProgress();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.bunifuPanel12 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel11 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel39 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel37 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel35 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel31 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel29 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel27 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel25 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel23 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel20 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.bunifuPanel18 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.lblBM = new System.Windows.Forms.Label();
+            this.lblHH = new System.Windows.Forms.Label();
+            this.lblTL = new System.Windows.Forms.Label();
+            this.lblHD = new System.Windows.Forms.Label();
+            this.colBM = new Bunifu.UI.WinForms.BunifuPanel();
+            this.colHH = new Bunifu.UI.WinForms.BunifuPanel();
+            this.colTL = new Bunifu.UI.WinForms.BunifuPanel();
             this.label13 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.BiHuHong = new Bunifu.UI.WinForms.BunifuCircleProgress();
+            this.crlHH = new Bunifu.UI.WinForms.BunifuCircleProgress();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.DaThanhLy = new Bunifu.UI.WinForms.BunifuCircleProgress();
+            this.crlTL = new Bunifu.UI.WinForms.BunifuCircleProgress();
             this.label11 = new System.Windows.Forms.Label();
-            this.BiMat = new Bunifu.UI.WinForms.BunifuCircleProgress();
+            this.crlBM = new Bunifu.UI.WinForms.BunifuCircleProgress();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.DangHoatDong = new Bunifu.UI.WinForms.BunifuCircleProgress();
+            this.crlHD = new Bunifu.UI.WinForms.BunifuCircleProgress();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.colHD = new Bunifu.UI.WinForms.BunifuPanel();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel11.SuspendLayout();
@@ -188,7 +218,7 @@ namespace QLTHIETBI
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.84696F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.15304F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 253F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 252F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 254F));
             this.tableLayoutPanel1.Controls.Add(this.panel8, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel3, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel7, 2, 0);
@@ -206,9 +236,9 @@ namespace QLTHIETBI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel8.Controls.Add(this.bunifuPanel7);
             this.panel8.Controls.Add(this.bunifuPanel3);
-            this.panel8.Location = new System.Drawing.Point(731, 3);
+            this.panel8.Location = new System.Drawing.Point(729, 3);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(247, 170);
+            this.panel8.Size = new System.Drawing.Size(249, 170);
             this.panel8.TabIndex = 11;
             // 
             // bunifuPanel7
@@ -297,9 +327,9 @@ namespace QLTHIETBI
             this.lblSoLuongNCC.ForeColor = System.Drawing.Color.Black;
             this.lblSoLuongNCC.Location = new System.Drawing.Point(181, 45);
             this.lblSoLuongNCC.Name = "lblSoLuongNCC";
-            this.lblSoLuongNCC.Size = new System.Drawing.Size(31, 25);
+            this.lblSoLuongNCC.Size = new System.Drawing.Size(23, 25);
             this.lblSoLuongNCC.TabIndex = 7;
-            this.lblSoLuongNCC.Text = "18";
+            this.lblSoLuongNCC.Text = "0";
             // 
             // label4
             // 
@@ -321,7 +351,7 @@ namespace QLTHIETBI
             this.panel3.Controls.Add(this.bunifuPanel1);
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(226, 170);
+            this.panel3.Size = new System.Drawing.Size(225, 170);
             this.panel3.TabIndex = 10;
             // 
             // bunifuPanel5
@@ -395,9 +425,9 @@ namespace QLTHIETBI
             this.lblSoLuongTB.ForeColor = System.Drawing.Color.Black;
             this.lblSoLuongTB.Location = new System.Drawing.Point(166, 45);
             this.lblSoLuongTB.Name = "lblSoLuongTB";
-            this.lblSoLuongTB.Size = new System.Drawing.Size(45, 25);
+            this.lblSoLuongTB.Size = new System.Drawing.Size(23, 25);
             this.lblSoLuongTB.TabIndex = 5;
-            this.lblSoLuongTB.Text = "280";
+            this.lblSoLuongTB.Text = "0";
             // 
             // label3
             // 
@@ -431,7 +461,7 @@ namespace QLTHIETBI
             this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.Controls.Add(this.bunifuPanel6);
             this.panel7.Controls.Add(this.bunifuPanel2);
-            this.panel7.Location = new System.Drawing.Point(478, 5);
+            this.panel7.Location = new System.Drawing.Point(476, 5);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(247, 167);
             this.panel7.TabIndex = 11;
@@ -522,9 +552,9 @@ namespace QLTHIETBI
             this.lblSoLuongKH.ForeColor = System.Drawing.Color.Black;
             this.lblSoLuongKH.Location = new System.Drawing.Point(180, 45);
             this.lblSoLuongKH.Name = "lblSoLuongKH";
-            this.lblSoLuongKH.Size = new System.Drawing.Size(33, 25);
+            this.lblSoLuongKH.Size = new System.Drawing.Size(23, 25);
             this.lblSoLuongKH.TabIndex = 6;
-            this.lblSoLuongKH.Text = "75";
+            this.lblSoLuongKH.Text = "0";
             // 
             // label2
             // 
@@ -543,9 +573,9 @@ namespace QLTHIETBI
             this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel9.Controls.Add(this.bunifuPanel8);
             this.panel9.Controls.Add(this.bunifuPanel4);
-            this.panel9.Location = new System.Drawing.Point(235, 5);
+            this.panel9.Location = new System.Drawing.Point(234, 5);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(237, 167);
+            this.panel9.Size = new System.Drawing.Size(236, 167);
             this.panel9.TabIndex = 11;
             // 
             // bunifuPanel8
@@ -634,9 +664,9 @@ namespace QLTHIETBI
             this.lblSoLuongNV.ForeColor = System.Drawing.Color.Black;
             this.lblSoLuongNV.Location = new System.Drawing.Point(175, 45);
             this.lblSoLuongNV.Name = "lblSoLuongNV";
-            this.lblSoLuongNV.Size = new System.Drawing.Size(34, 25);
+            this.lblSoLuongNV.Size = new System.Drawing.Size(23, 25);
             this.lblSoLuongNV.TabIndex = 8;
-            this.lblSoLuongNV.Text = "42";
+            this.lblSoLuongNV.Text = "0";
             // 
             // label5
             // 
@@ -747,61 +777,397 @@ namespace QLTHIETBI
             this.bunifuPanel9.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel9.BorderRadius = 10;
             this.bunifuPanel9.BorderThickness = 0;
-            this.bunifuPanel9.Controls.Add(this.bunifuCircleProgress5);
+            this.bunifuPanel9.Controls.Add(this.label27);
+            this.bunifuPanel9.Controls.Add(this.label28);
+            this.bunifuPanel9.Controls.Add(this.label29);
+            this.bunifuPanel9.Controls.Add(this.label22);
+            this.bunifuPanel9.Controls.Add(this.label23);
+            this.bunifuPanel9.Controls.Add(this.label24);
+            this.bunifuPanel9.Controls.Add(this.label25);
+            this.bunifuPanel9.Controls.Add(this.label21);
+            this.bunifuPanel9.Controls.Add(this.label20);
+            this.bunifuPanel9.Controls.Add(this.label19);
+            this.bunifuPanel9.Controls.Add(this.label18);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel12);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel11);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel39);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel37);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel35);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel31);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel29);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel27);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel25);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel23);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel20);
+            this.bunifuPanel9.Controls.Add(this.bunifuPanel18);
+            this.bunifuPanel9.Controls.Add(this.lblBM);
+            this.bunifuPanel9.Controls.Add(this.lblHH);
+            this.bunifuPanel9.Controls.Add(this.lblTL);
+            this.bunifuPanel9.Controls.Add(this.lblHD);
+            this.bunifuPanel9.Controls.Add(this.colBM);
+            this.bunifuPanel9.Controls.Add(this.colHH);
+            this.bunifuPanel9.Controls.Add(this.colTL);
             this.bunifuPanel9.Controls.Add(this.label13);
             this.bunifuPanel9.Controls.Add(this.label10);
             this.bunifuPanel9.Controls.Add(this.panel5);
             this.bunifuPanel9.Controls.Add(this.label12);
-            this.bunifuPanel9.Controls.Add(this.BiHuHong);
+            this.bunifuPanel9.Controls.Add(this.crlHH);
             this.bunifuPanel9.Controls.Add(this.pictureBox5);
-            this.bunifuPanel9.Controls.Add(this.DaThanhLy);
+            this.bunifuPanel9.Controls.Add(this.crlTL);
             this.bunifuPanel9.Controls.Add(this.label11);
-            this.bunifuPanel9.Controls.Add(this.BiMat);
+            this.bunifuPanel9.Controls.Add(this.crlBM);
             this.bunifuPanel9.Controls.Add(this.pictureBox6);
-            this.bunifuPanel9.Controls.Add(this.DangHoatDong);
+            this.bunifuPanel9.Controls.Add(this.crlHD);
             this.bunifuPanel9.Controls.Add(this.pictureBox7);
             this.bunifuPanel9.Controls.Add(this.pictureBox8);
+            this.bunifuPanel9.Controls.Add(this.colHD);
             this.bunifuPanel9.Location = new System.Drawing.Point(3, 3);
             this.bunifuPanel9.Name = "bunifuPanel9";
             this.bunifuPanel9.ShowBorders = true;
             this.bunifuPanel9.Size = new System.Drawing.Size(585, 382);
             this.bunifuPanel9.TabIndex = 1;
             // 
-            // bunifuCircleProgress5
+            // label22
             // 
-            this.bunifuCircleProgress5.Animated = true;
-            this.bunifuCircleProgress5.AnimationInterval = 1;
-            this.bunifuCircleProgress5.AnimationSpeed = 1;
-            this.bunifuCircleProgress5.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCircleProgress5.CircleMargin = 10;
-            this.bunifuCircleProgress5.Font = new System.Drawing.Font("Microsoft Sans Serif", 1F, System.Drawing.FontStyle.Bold);
-            this.bunifuCircleProgress5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuCircleProgress5.IsPercentage = false;
-            this.bunifuCircleProgress5.LineProgressThickness = 20;
-            this.bunifuCircleProgress5.LineThickness = 20;
-            this.bunifuCircleProgress5.Location = new System.Drawing.Point(36, 204);
-            this.bunifuCircleProgress5.Name = "bunifuCircleProgress5";
-            this.bunifuCircleProgress5.ProgressAnimationSpeed = 200;
-            this.bunifuCircleProgress5.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCircleProgress5.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(64)))), ((int)(((byte)(53)))));
-            this.bunifuCircleProgress5.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuCircleProgress5.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
-            this.bunifuCircleProgress5.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Gradient;
-            this.bunifuCircleProgress5.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
-            this.bunifuCircleProgress5.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.bunifuCircleProgress5.Size = new System.Drawing.Size(137, 137);
-            this.bunifuCircleProgress5.SubScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.bunifuCircleProgress5.SubScriptMargin = new System.Windows.Forms.Padding(5, -20, 0, 0);
-            this.bunifuCircleProgress5.SubScriptText = "";
-            this.bunifuCircleProgress5.SuperScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.bunifuCircleProgress5.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
-            this.bunifuCircleProgress5.SuperScriptText = "";
-            this.bunifuCircleProgress5.TabIndex = 16;
-            this.bunifuCircleProgress5.Text = "30";
-            this.bunifuCircleProgress5.TextMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.bunifuCircleProgress5.Value = 30;
-            this.bunifuCircleProgress5.ValueByTransition = 30;
-            this.bunifuCircleProgress5.ValueMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Location = new System.Drawing.Point(21, 289);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(19, 13);
+            this.label22.TabIndex = 67;
+            this.label22.Text = "30";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Location = new System.Drawing.Point(21, 267);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(19, 13);
+            this.label23.TabIndex = 66;
+            this.label23.Text = "40";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Location = new System.Drawing.Point(21, 247);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(19, 13);
+            this.label24.TabIndex = 65;
+            this.label24.Text = "50";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Location = new System.Drawing.Point(21, 227);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(19, 13);
+            this.label25.TabIndex = 64;
+            this.label25.Text = "60";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Location = new System.Drawing.Point(21, 209);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(19, 13);
+            this.label21.TabIndex = 63;
+            this.label21.Text = "70";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Location = new System.Drawing.Point(21, 187);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(19, 13);
+            this.label20.TabIndex = 62;
+            this.label20.Text = "80";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Location = new System.Drawing.Point(21, 169);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(19, 13);
+            this.label19.TabIndex = 61;
+            this.label19.Text = "90";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Location = new System.Drawing.Point(15, 149);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(25, 13);
+            this.label18.TabIndex = 60;
+            this.label18.Text = "100";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // bunifuPanel12
+            // 
+            this.bunifuPanel12.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel12.BackgroundImage")));
+            this.bunifuPanel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel12.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel12.BorderRadius = 3;
+            this.bunifuPanel12.BorderThickness = 1;
+            this.bunifuPanel12.Location = new System.Drawing.Point(51, 358);
+            this.bunifuPanel12.Name = "bunifuPanel12";
+            this.bunifuPanel12.ShowBorders = true;
+            this.bunifuPanel12.Size = new System.Drawing.Size(290, 2);
+            this.bunifuPanel12.TabIndex = 29;
+            // 
+            // bunifuPanel11
+            // 
+            this.bunifuPanel11.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel11.BackgroundImage")));
+            this.bunifuPanel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel11.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel11.BorderRadius = 3;
+            this.bunifuPanel11.BorderThickness = 1;
+            this.bunifuPanel11.Location = new System.Drawing.Point(52, 160);
+            this.bunifuPanel11.Name = "bunifuPanel11";
+            this.bunifuPanel11.ShowBorders = true;
+            this.bunifuPanel11.Size = new System.Drawing.Size(2, 200);
+            this.bunifuPanel11.TabIndex = 28;
+            // 
+            // bunifuPanel39
+            // 
+            this.bunifuPanel39.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel39.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel39.BackgroundImage")));
+            this.bunifuPanel39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel39.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel39.BorderRadius = 3;
+            this.bunifuPanel39.BorderThickness = 1;
+            this.bunifuPanel39.Location = new System.Drawing.Point(46, 160);
+            this.bunifuPanel39.Name = "bunifuPanel39";
+            this.bunifuPanel39.ShowBorders = true;
+            this.bunifuPanel39.Size = new System.Drawing.Size(8, 2);
+            this.bunifuPanel39.TabIndex = 59;
+            // 
+            // bunifuPanel37
+            // 
+            this.bunifuPanel37.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel37.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel37.BackgroundImage")));
+            this.bunifuPanel37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel37.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel37.BorderRadius = 3;
+            this.bunifuPanel37.BorderThickness = 1;
+            this.bunifuPanel37.Location = new System.Drawing.Point(46, 180);
+            this.bunifuPanel37.Name = "bunifuPanel37";
+            this.bunifuPanel37.ShowBorders = true;
+            this.bunifuPanel37.Size = new System.Drawing.Size(8, 2);
+            this.bunifuPanel37.TabIndex = 57;
+            // 
+            // bunifuPanel35
+            // 
+            this.bunifuPanel35.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel35.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel35.BackgroundImage")));
+            this.bunifuPanel35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel35.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel35.BorderRadius = 3;
+            this.bunifuPanel35.BorderThickness = 1;
+            this.bunifuPanel35.Location = new System.Drawing.Point(46, 198);
+            this.bunifuPanel35.Name = "bunifuPanel35";
+            this.bunifuPanel35.ShowBorders = true;
+            this.bunifuPanel35.Size = new System.Drawing.Size(8, 2);
+            this.bunifuPanel35.TabIndex = 55;
+            // 
+            // bunifuPanel31
+            // 
+            this.bunifuPanel31.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel31.BackgroundImage")));
+            this.bunifuPanel31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel31.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel31.BorderRadius = 3;
+            this.bunifuPanel31.BorderThickness = 1;
+            this.bunifuPanel31.Location = new System.Drawing.Point(46, 220);
+            this.bunifuPanel31.Name = "bunifuPanel31";
+            this.bunifuPanel31.ShowBorders = true;
+            this.bunifuPanel31.Size = new System.Drawing.Size(8, 2);
+            this.bunifuPanel31.TabIndex = 51;
+            // 
+            // bunifuPanel29
+            // 
+            this.bunifuPanel29.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel29.BackgroundImage")));
+            this.bunifuPanel29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel29.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel29.BorderRadius = 3;
+            this.bunifuPanel29.BorderThickness = 1;
+            this.bunifuPanel29.Location = new System.Drawing.Point(46, 238);
+            this.bunifuPanel29.Name = "bunifuPanel29";
+            this.bunifuPanel29.ShowBorders = true;
+            this.bunifuPanel29.Size = new System.Drawing.Size(8, 2);
+            this.bunifuPanel29.TabIndex = 49;
+            // 
+            // bunifuPanel27
+            // 
+            this.bunifuPanel27.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel27.BackgroundImage")));
+            this.bunifuPanel27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel27.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel27.BorderRadius = 3;
+            this.bunifuPanel27.BorderThickness = 1;
+            this.bunifuPanel27.Location = new System.Drawing.Point(46, 258);
+            this.bunifuPanel27.Name = "bunifuPanel27";
+            this.bunifuPanel27.ShowBorders = true;
+            this.bunifuPanel27.Size = new System.Drawing.Size(8, 2);
+            this.bunifuPanel27.TabIndex = 47;
+            // 
+            // bunifuPanel25
+            // 
+            this.bunifuPanel25.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel25.BackgroundImage")));
+            this.bunifuPanel25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel25.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel25.BorderRadius = 3;
+            this.bunifuPanel25.BorderThickness = 1;
+            this.bunifuPanel25.Location = new System.Drawing.Point(46, 278);
+            this.bunifuPanel25.Name = "bunifuPanel25";
+            this.bunifuPanel25.ShowBorders = true;
+            this.bunifuPanel25.Size = new System.Drawing.Size(8, 2);
+            this.bunifuPanel25.TabIndex = 45;
+            // 
+            // bunifuPanel23
+            // 
+            this.bunifuPanel23.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel23.BackgroundImage")));
+            this.bunifuPanel23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel23.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel23.BorderRadius = 3;
+            this.bunifuPanel23.BorderThickness = 1;
+            this.bunifuPanel23.Location = new System.Drawing.Point(46, 300);
+            this.bunifuPanel23.Name = "bunifuPanel23";
+            this.bunifuPanel23.ShowBorders = true;
+            this.bunifuPanel23.Size = new System.Drawing.Size(8, 2);
+            this.bunifuPanel23.TabIndex = 43;
+            // 
+            // bunifuPanel20
+            // 
+            this.bunifuPanel20.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel20.BackgroundImage")));
+            this.bunifuPanel20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel20.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel20.BorderRadius = 3;
+            this.bunifuPanel20.BorderThickness = 1;
+            this.bunifuPanel20.Location = new System.Drawing.Point(46, 320);
+            this.bunifuPanel20.Name = "bunifuPanel20";
+            this.bunifuPanel20.ShowBorders = true;
+            this.bunifuPanel20.Size = new System.Drawing.Size(8, 2);
+            this.bunifuPanel20.TabIndex = 40;
+            // 
+            // bunifuPanel18
+            // 
+            this.bunifuPanel18.BackgroundColor = System.Drawing.Color.Black;
+            this.bunifuPanel18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel18.BackgroundImage")));
+            this.bunifuPanel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuPanel18.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuPanel18.BorderRadius = 3;
+            this.bunifuPanel18.BorderThickness = 1;
+            this.bunifuPanel18.Location = new System.Drawing.Point(46, 340);
+            this.bunifuPanel18.Name = "bunifuPanel18";
+            this.bunifuPanel18.ShowBorders = true;
+            this.bunifuPanel18.Size = new System.Drawing.Size(8, 2);
+            this.bunifuPanel18.TabIndex = 38;
+            // 
+            // lblBM
+            // 
+            this.lblBM.AutoSize = true;
+            this.lblBM.BackColor = System.Drawing.Color.Transparent;
+            this.lblBM.Location = new System.Drawing.Point(263, 363);
+            this.lblBM.Name = "lblBM";
+            this.lblBM.Size = new System.Drawing.Size(25, 13);
+            this.lblBM.TabIndex = 36;
+            this.lblBM.Text = "100";
+            this.lblBM.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHH
+            // 
+            this.lblHH.AutoSize = true;
+            this.lblHH.BackColor = System.Drawing.Color.Transparent;
+            this.lblHH.Location = new System.Drawing.Point(201, 363);
+            this.lblHH.Name = "lblHH";
+            this.lblHH.Size = new System.Drawing.Size(25, 13);
+            this.lblHH.TabIndex = 35;
+            this.lblHH.Text = "100";
+            this.lblHH.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblTL
+            // 
+            this.lblTL.AutoSize = true;
+            this.lblTL.BackColor = System.Drawing.Color.Transparent;
+            this.lblTL.Location = new System.Drawing.Point(140, 363);
+            this.lblTL.Name = "lblTL";
+            this.lblTL.Size = new System.Drawing.Size(25, 13);
+            this.lblTL.TabIndex = 34;
+            this.lblTL.Text = "100";
+            this.lblTL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblHD
+            // 
+            this.lblHD.AutoSize = true;
+            this.lblHD.BackColor = System.Drawing.Color.Transparent;
+            this.lblHD.Location = new System.Drawing.Point(79, 363);
+            this.lblHD.Name = "lblHD";
+            this.lblHD.Size = new System.Drawing.Size(25, 13);
+            this.lblHD.TabIndex = 33;
+            this.lblHD.Text = "100";
+            this.lblHD.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // colBM
+            // 
+            this.colBM.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(177)))), ((int)(((byte)(81)))));
+            this.colBM.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("colBM.BackgroundImage")));
+            this.colBM.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.colBM.BorderColor = System.Drawing.Color.Transparent;
+            this.colBM.BorderRadius = 0;
+            this.colBM.BorderThickness = 0;
+            this.colBM.Location = new System.Drawing.Point(266, 160);
+            this.colBM.Name = "colBM";
+            this.colBM.ShowBorders = true;
+            this.colBM.Size = new System.Drawing.Size(30, 200);
+            this.colBM.TabIndex = 32;
+            // 
+            // colHH
+            // 
+            this.colHH.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.colHH.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("colHH.BackgroundImage")));
+            this.colHH.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.colHH.BorderColor = System.Drawing.Color.Transparent;
+            this.colHH.BorderRadius = 0;
+            this.colHH.BorderThickness = 0;
+            this.colHH.Location = new System.Drawing.Point(204, 160);
+            this.colHH.Name = "colHH";
+            this.colHH.ShowBorders = true;
+            this.colHH.Size = new System.Drawing.Size(30, 200);
+            this.colHH.TabIndex = 32;
+            // 
+            // colTL
+            // 
+            this.colTL.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(1)))));
+            this.colTL.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("colTL.BackgroundImage")));
+            this.colTL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.colTL.BorderColor = System.Drawing.Color.Transparent;
+            this.colTL.BorderRadius = 0;
+            this.colTL.BorderThickness = 0;
+            this.colTL.Location = new System.Drawing.Point(143, 160);
+            this.colTL.Name = "colTL";
+            this.colTL.ShowBorders = true;
+            this.colTL.Size = new System.Drawing.Size(30, 200);
+            this.colTL.TabIndex = 32;
             // 
             // label13
             // 
@@ -809,7 +1175,7 @@ namespace QLTHIETBI
             this.label13.BackColor = System.Drawing.Color.White;
             this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(60, 91);
+            this.label13.Location = new System.Drawing.Point(60, 82);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(68, 15);
             this.label13.TabIndex = 27;
@@ -866,47 +1232,48 @@ namespace QLTHIETBI
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(60, 117);
+            this.label12.Location = new System.Drawing.Point(60, 101);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(65, 15);
             this.label12.TabIndex = 26;
             this.label12.Text = "Bị hư hỏng";
             // 
-            // BiHuHong
+            // crlHH
             // 
-            this.BiHuHong.Animated = false;
-            this.BiHuHong.AnimationInterval = 1;
-            this.BiHuHong.AnimationSpeed = 1;
-            this.BiHuHong.BackColor = System.Drawing.Color.Transparent;
-            this.BiHuHong.CircleMargin = 10;
-            this.BiHuHong.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
-            this.BiHuHong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.BiHuHong.IsPercentage = false;
-            this.BiHuHong.LineProgressThickness = 10;
-            this.BiHuHong.LineThickness = 10;
-            this.BiHuHong.Location = new System.Drawing.Point(213, 224);
-            this.BiHuHong.Name = "BiHuHong";
-            this.BiHuHong.ProgressAnimationSpeed = 200;
-            this.BiHuHong.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.BiHuHong.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.BiHuHong.ProgressColor2 = System.Drawing.Color.DodgerBlue;
-            this.BiHuHong.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
-            this.BiHuHong.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Solid;
-            this.BiHuHong.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
-            this.BiHuHong.SecondaryFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.BiHuHong.Size = new System.Drawing.Size(155, 155);
-            this.BiHuHong.SubScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.BiHuHong.SubScriptMargin = new System.Windows.Forms.Padding(0, -20, 0, 0);
-            this.BiHuHong.SubScriptText = "%";
-            this.BiHuHong.SuperScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.BiHuHong.SuperScriptMargin = new System.Windows.Forms.Padding(0);
-            this.BiHuHong.SuperScriptText = "";
-            this.BiHuHong.TabIndex = 19;
-            this.BiHuHong.Text = "30";
-            this.BiHuHong.TextMargin = new System.Windows.Forms.Padding(0);
-            this.BiHuHong.Value = 30;
-            this.BiHuHong.ValueByTransition = 30;
-            this.BiHuHong.ValueMargin = new System.Windows.Forms.Padding(0);
+            this.crlHH.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.crlHH.Animated = false;
+            this.crlHH.AnimationInterval = 1;
+            this.crlHH.AnimationSpeed = 1;
+            this.crlHH.BackColor = System.Drawing.Color.Transparent;
+            this.crlHH.CircleMargin = 10;
+            this.crlHH.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
+            this.crlHH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.crlHH.IsPercentage = false;
+            this.crlHH.LineProgressThickness = 10;
+            this.crlHH.LineThickness = 10;
+            this.crlHH.Location = new System.Drawing.Point(305, 158);
+            this.crlHH.Name = "crlHH";
+            this.crlHH.ProgressAnimationSpeed = 200;
+            this.crlHH.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.crlHH.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.crlHH.ProgressColor2 = System.Drawing.Color.DodgerBlue;
+            this.crlHH.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.crlHH.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Solid;
+            this.crlHH.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.crlHH.SecondaryFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.crlHH.Size = new System.Drawing.Size(125, 125);
+            this.crlHH.SubScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.crlHH.SubScriptMargin = new System.Windows.Forms.Padding(5, -20, 0, 0);
+            this.crlHH.SubScriptText = ".00";
+            this.crlHH.SuperScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.crlHH.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
+            this.crlHH.SuperScriptText = "%";
+            this.crlHH.TabIndex = 19;
+            this.crlHH.Text = "30";
+            this.crlHH.TextMargin = new System.Windows.Forms.Padding(0);
+            this.crlHH.Value = 30;
+            this.crlHH.ValueByTransition = 30;
+            this.crlHH.ValueMargin = new System.Windows.Forms.Padding(0);
             // 
             // pictureBox5
             // 
@@ -917,41 +1284,42 @@ namespace QLTHIETBI
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
             // 
-            // DaThanhLy
+            // crlTL
             // 
-            this.DaThanhLy.Animated = false;
-            this.DaThanhLy.AnimationInterval = 1;
-            this.DaThanhLy.AnimationSpeed = 1;
-            this.DaThanhLy.BackColor = System.Drawing.Color.Transparent;
-            this.DaThanhLy.CircleMargin = 10;
-            this.DaThanhLy.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
-            this.DaThanhLy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(1)))));
-            this.DaThanhLy.IsPercentage = false;
-            this.DaThanhLy.LineProgressThickness = 10;
-            this.DaThanhLy.LineThickness = 10;
-            this.DaThanhLy.Location = new System.Drawing.Point(388, 50);
-            this.DaThanhLy.Name = "DaThanhLy";
-            this.DaThanhLy.ProgressAnimationSpeed = 200;
-            this.DaThanhLy.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.DaThanhLy.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(1)))));
-            this.DaThanhLy.ProgressColor2 = System.Drawing.Color.DodgerBlue;
-            this.DaThanhLy.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
-            this.DaThanhLy.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Solid;
-            this.DaThanhLy.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
-            this.DaThanhLy.SecondaryFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.DaThanhLy.Size = new System.Drawing.Size(155, 155);
-            this.DaThanhLy.SubScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.DaThanhLy.SubScriptMargin = new System.Windows.Forms.Padding(0, -20, 0, 0);
-            this.DaThanhLy.SubScriptText = "%";
-            this.DaThanhLy.SuperScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.DaThanhLy.SuperScriptMargin = new System.Windows.Forms.Padding(0);
-            this.DaThanhLy.SuperScriptText = "";
-            this.DaThanhLy.TabIndex = 18;
-            this.DaThanhLy.Text = "30";
-            this.DaThanhLy.TextMargin = new System.Windows.Forms.Padding(0);
-            this.DaThanhLy.Value = 30;
-            this.DaThanhLy.ValueByTransition = 30;
-            this.DaThanhLy.ValueMargin = new System.Windows.Forms.Padding(0);
+            this.crlTL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.crlTL.Animated = false;
+            this.crlTL.AnimationInterval = 1;
+            this.crlTL.AnimationSpeed = 1;
+            this.crlTL.BackColor = System.Drawing.Color.Transparent;
+            this.crlTL.CircleMargin = 10;
+            this.crlTL.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
+            this.crlTL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(1)))));
+            this.crlTL.IsPercentage = false;
+            this.crlTL.LineProgressThickness = 10;
+            this.crlTL.LineThickness = 10;
+            this.crlTL.Location = new System.Drawing.Point(436, 27);
+            this.crlTL.Name = "crlTL";
+            this.crlTL.ProgressAnimationSpeed = 200;
+            this.crlTL.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.crlTL.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(1)))));
+            this.crlTL.ProgressColor2 = System.Drawing.Color.DodgerBlue;
+            this.crlTL.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.crlTL.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Solid;
+            this.crlTL.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.crlTL.SecondaryFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.crlTL.Size = new System.Drawing.Size(125, 125);
+            this.crlTL.SubScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(1)))));
+            this.crlTL.SubScriptMargin = new System.Windows.Forms.Padding(0, -20, 0, 0);
+            this.crlTL.SubScriptText = ".00";
+            this.crlTL.SuperScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(1)))));
+            this.crlTL.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
+            this.crlTL.SuperScriptText = "%";
+            this.crlTL.TabIndex = 18;
+            this.crlTL.Text = "30";
+            this.crlTL.TextMargin = new System.Windows.Forms.Padding(0);
+            this.crlTL.Value = 30;
+            this.crlTL.ValueByTransition = 30;
+            this.crlTL.ValueMargin = new System.Windows.Forms.Padding(0);
             // 
             // label11
             // 
@@ -959,97 +1327,98 @@ namespace QLTHIETBI
             this.label11.BackColor = System.Drawing.Color.White;
             this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(60, 146);
+            this.label11.Location = new System.Drawing.Point(60, 120);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(41, 15);
             this.label11.TabIndex = 25;
             this.label11.Text = "Bị Mất";
             // 
-            // BiMat
+            // crlBM
             // 
-            this.BiMat.Animated = false;
-            this.BiMat.AnimationInterval = 1;
-            this.BiMat.AnimationSpeed = 1;
-            this.BiMat.BackColor = System.Drawing.Color.Transparent;
-            this.BiMat.CircleMargin = 10;
-            this.BiMat.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
-            this.BiMat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(177)))), ((int)(((byte)(81)))));
-            this.BiMat.IsPercentage = false;
-            this.BiMat.LineProgressThickness = 10;
-            this.BiMat.LineThickness = 10;
-            this.BiMat.Location = new System.Drawing.Point(388, 224);
-            this.BiMat.Name = "BiMat";
-            this.BiMat.ProgressAnimationSpeed = 200;
-            this.BiMat.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.BiMat.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(177)))), ((int)(((byte)(81)))));
-            this.BiMat.ProgressColor2 = System.Drawing.Color.DodgerBlue;
-            this.BiMat.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
-            this.BiMat.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Solid;
-            this.BiMat.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
-            this.BiMat.SecondaryFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.BiMat.Size = new System.Drawing.Size(155, 155);
-            this.BiMat.SubScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.BiMat.SubScriptMargin = new System.Windows.Forms.Padding(0, -20, 0, 0);
-            this.BiMat.SubScriptText = "%";
-            this.BiMat.SuperScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.BiMat.SuperScriptMargin = new System.Windows.Forms.Padding(0);
-            this.BiMat.SuperScriptText = "";
-            this.BiMat.TabIndex = 17;
-            this.BiMat.Text = "30";
-            this.BiMat.TextMargin = new System.Windows.Forms.Padding(0);
-            this.BiMat.Value = 30;
-            this.BiMat.ValueByTransition = 30;
-            this.BiMat.ValueMargin = new System.Windows.Forms.Padding(0);
+            this.crlBM.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.crlBM.Animated = false;
+            this.crlBM.AnimationInterval = 1;
+            this.crlBM.AnimationSpeed = 1;
+            this.crlBM.BackColor = System.Drawing.Color.Transparent;
+            this.crlBM.CircleMargin = 10;
+            this.crlBM.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
+            this.crlBM.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(177)))), ((int)(((byte)(81)))));
+            this.crlBM.IsPercentage = false;
+            this.crlBM.LineProgressThickness = 10;
+            this.crlBM.LineThickness = 10;
+            this.crlBM.Location = new System.Drawing.Point(436, 158);
+            this.crlBM.Name = "crlBM";
+            this.crlBM.ProgressAnimationSpeed = 200;
+            this.crlBM.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.crlBM.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(177)))), ((int)(((byte)(81)))));
+            this.crlBM.ProgressColor2 = System.Drawing.Color.DodgerBlue;
+            this.crlBM.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.crlBM.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Solid;
+            this.crlBM.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.crlBM.SecondaryFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.crlBM.Size = new System.Drawing.Size(125, 125);
+            this.crlBM.SubScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(177)))), ((int)(((byte)(81)))));
+            this.crlBM.SubScriptMargin = new System.Windows.Forms.Padding(5, -20, 0, 0);
+            this.crlBM.SubScriptText = ".00";
+            this.crlBM.SuperScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(177)))), ((int)(((byte)(81)))));
+            this.crlBM.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
+            this.crlBM.SuperScriptText = "%";
+            this.crlBM.TabIndex = 17;
+            this.crlBM.Text = "0";
+            this.crlBM.TextMargin = new System.Windows.Forms.Padding(0);
+            this.crlBM.ValueByTransition = 0;
+            this.crlBM.ValueMargin = new System.Windows.Forms.Padding(0);
             // 
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(177)))), ((int)(((byte)(81)))));
-            this.pictureBox6.Location = new System.Drawing.Point(20, 148);
+            this.pictureBox6.Location = new System.Drawing.Point(20, 120);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(34, 13);
             this.pictureBox6.TabIndex = 21;
             this.pictureBox6.TabStop = false;
             // 
-            // DangHoatDong
+            // crlHD
             // 
-            this.DangHoatDong.Animated = false;
-            this.DangHoatDong.AnimationInterval = 1;
-            this.DangHoatDong.AnimationSpeed = 1;
-            this.DangHoatDong.BackColor = System.Drawing.Color.Transparent;
-            this.DangHoatDong.CircleMargin = 10;
-            this.DangHoatDong.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
-            this.DangHoatDong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(64)))), ((int)(((byte)(53)))));
-            this.DangHoatDong.IsPercentage = false;
-            this.DangHoatDong.LineProgressThickness = 10;
-            this.DangHoatDong.LineThickness = 10;
-            this.DangHoatDong.Location = new System.Drawing.Point(213, 50);
-            this.DangHoatDong.Name = "DangHoatDong";
-            this.DangHoatDong.ProgressAnimationSpeed = 200;
-            this.DangHoatDong.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.DangHoatDong.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(64)))), ((int)(((byte)(53)))));
-            this.DangHoatDong.ProgressColor2 = System.Drawing.Color.DodgerBlue;
-            this.DangHoatDong.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
-            this.DangHoatDong.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Solid;
-            this.DangHoatDong.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
-            this.DangHoatDong.SecondaryFont = new System.Drawing.Font("Segoe UI", 10F);
-            this.DangHoatDong.Size = new System.Drawing.Size(155, 155);
-            this.DangHoatDong.SubScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.DangHoatDong.SubScriptMargin = new System.Windows.Forms.Padding(0, -20, 0, 0);
-            this.DangHoatDong.SubScriptText = "%";
-            this.DangHoatDong.SuperScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.DangHoatDong.SuperScriptMargin = new System.Windows.Forms.Padding(0);
-            this.DangHoatDong.SuperScriptText = "";
-            this.DangHoatDong.TabIndex = 16;
-            this.DangHoatDong.Text = "30";
-            this.DangHoatDong.TextMargin = new System.Windows.Forms.Padding(0);
-            this.DangHoatDong.Value = 30;
-            this.DangHoatDong.ValueByTransition = 30;
-            this.DangHoatDong.ValueMargin = new System.Windows.Forms.Padding(0);
+            this.crlHD.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.crlHD.Animated = false;
+            this.crlHD.AnimationInterval = 1;
+            this.crlHD.AnimationSpeed = 1;
+            this.crlHD.BackColor = System.Drawing.Color.Transparent;
+            this.crlHD.CircleMargin = 10;
+            this.crlHD.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
+            this.crlHD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(64)))), ((int)(((byte)(53)))));
+            this.crlHD.IsPercentage = false;
+            this.crlHD.LineProgressThickness = 10;
+            this.crlHD.LineThickness = 10;
+            this.crlHD.Location = new System.Drawing.Point(305, 27);
+            this.crlHD.Name = "crlHD";
+            this.crlHD.ProgressAnimationSpeed = 200;
+            this.crlHD.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.crlHD.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(64)))), ((int)(((byte)(53)))));
+            this.crlHD.ProgressColor2 = System.Drawing.Color.DodgerBlue;
+            this.crlHD.ProgressEndCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.crlHD.ProgressFillStyle = Bunifu.UI.WinForms.BunifuCircleProgress.FillStyles.Solid;
+            this.crlHD.ProgressStartCap = Bunifu.UI.WinForms.BunifuCircleProgress.CapStyles.Round;
+            this.crlHD.SecondaryFont = new System.Drawing.Font("Segoe UI", 10F);
+            this.crlHD.Size = new System.Drawing.Size(125, 125);
+            this.crlHD.SubScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(64)))), ((int)(((byte)(53)))));
+            this.crlHD.SubScriptMargin = new System.Windows.Forms.Padding(5, -20, 0, 0);
+            this.crlHD.SubScriptText = ".00";
+            this.crlHD.SuperScriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(64)))), ((int)(((byte)(53)))));
+            this.crlHD.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
+            this.crlHD.SuperScriptText = "%";
+            this.crlHD.TabIndex = 16;
+            this.crlHD.Text = "30";
+            this.crlHD.TextMargin = new System.Windows.Forms.Padding(0);
+            this.crlHD.Value = 30;
+            this.crlHD.ValueByTransition = 30;
+            this.crlHD.ValueMargin = new System.Windows.Forms.Padding(0);
             // 
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.pictureBox7.Location = new System.Drawing.Point(20, 119);
+            this.pictureBox7.Location = new System.Drawing.Point(20, 101);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(34, 13);
             this.pictureBox7.TabIndex = 22;
@@ -1058,7 +1427,7 @@ namespace QLTHIETBI
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(1)))));
-            this.pictureBox8.Location = new System.Drawing.Point(20, 91);
+            this.pictureBox8.Location = new System.Drawing.Point(20, 82);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(34, 13);
             this.pictureBox8.TabIndex = 23;
@@ -1067,6 +1436,53 @@ namespace QLTHIETBI
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.Transparent;
+            this.label27.Location = new System.Drawing.Point(27, 347);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(13, 13);
+            this.label27.TabIndex = 70;
+            this.label27.Text = "0";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.label28.Location = new System.Drawing.Point(21, 329);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(19, 13);
+            this.label28.TabIndex = 69;
+            this.label28.Text = "10";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Location = new System.Drawing.Point(21, 309);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(19, 13);
+            this.label29.TabIndex = 68;
+            this.label29.Text = "20";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // colHD
+            // 
+            this.colHD.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(64)))), ((int)(((byte)(53)))));
+            this.colHD.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("colHD.BackgroundImage")));
+            this.colHD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.colHD.BorderColor = System.Drawing.Color.Transparent;
+            this.colHD.BorderRadius = 0;
+            this.colHD.BorderThickness = 0;
+            this.colHD.Location = new System.Drawing.Point(83, 160);
+            this.colHD.Name = "colHD";
+            this.colHD.ShowBorders = true;
+            this.colHD.Size = new System.Drawing.Size(30, 200);
+            this.colHD.TabIndex = 71;
             // 
             // ucTrangChu
             // 
@@ -1156,7 +1572,7 @@ namespace QLTHIETBI
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Bunifu.UI.WinForms.BunifuCircleProgress DangHoatDong;
+        private Bunifu.UI.WinForms.BunifuCircleProgress crlHD;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel9;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
@@ -1166,13 +1582,12 @@ namespace QLTHIETBI
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private Bunifu.UI.WinForms.BunifuCircleProgress BiHuHong;
-        private Bunifu.UI.WinForms.BunifuCircleProgress DaThanhLy;
-        private Bunifu.UI.WinForms.BunifuCircleProgress BiMat;
+        private Bunifu.UI.WinForms.BunifuCircleProgress crlHH;
+        private Bunifu.UI.WinForms.BunifuCircleProgress crlTL;
+        private Bunifu.UI.WinForms.BunifuCircleProgress crlBM;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private Bunifu.UI.WinForms.BunifuCircleProgress bunifuCircleProgress5;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel8;
@@ -1186,5 +1601,36 @@ namespace QLTHIETBI
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel11;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel12;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel27;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel25;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel23;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel20;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel18;
+        private System.Windows.Forms.Label lblBM;
+        private System.Windows.Forms.Label lblHH;
+        private System.Windows.Forms.Label lblTL;
+        private System.Windows.Forms.Label lblHD;
+        private Bunifu.UI.WinForms.BunifuPanel colBM;
+        private Bunifu.UI.WinForms.BunifuPanel colHH;
+        private Bunifu.UI.WinForms.BunifuPanel colTL;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel39;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel37;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel35;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel31;
+        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel29;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private Bunifu.UI.WinForms.BunifuPanel colHD;
     }
 }
